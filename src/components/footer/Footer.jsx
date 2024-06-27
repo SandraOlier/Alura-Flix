@@ -107,8 +107,8 @@ function Footer() {
                 </li>
             </IconContainer>
             <FooterText className='text'>
-                Diseñado por Alura.<br />
-                Desarrollado por Sandra OLier Junio 2024.<br />
+                 AluraLatam G6 ONE .<br />
+                Copyrigth ©️ Sandra OLier Junio 2024.<br />
                 
             </FooterText>
         </StyledFooter>
