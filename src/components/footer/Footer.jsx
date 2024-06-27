@@ -30,6 +30,18 @@ const IconContainer = styled.ul`
         //margin-right: 1.5rem;
         padding: 0.5rem;
     }
+    @keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  /* ... (continúa con los porcentajes restantes) ... */
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+li:hover {
+  animation: shake 0.5s; /* Inicia la animación y dura 0.5 segundos */
+  animation-iteration-count: infinite; /* Repite la animación infinitamente */
+}
+
 `;
 
 const LogoContainer = styled.div`
