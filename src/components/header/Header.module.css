@@ -24,8 +24,20 @@ a{ text-decoration: none;}
 }
 
 .header img {
-    align-self: start;
+    align-self: start;     animation: 2s scale infinite alternate;
 }
+@keyframes scale {
+0% {
+transform: scale(1);
+}
+30% {
+transform: scale(0.8);
+}
+100% {
+transform: scale(1);
+}
+}
+
 
 .navLinks {
     display: flex;
